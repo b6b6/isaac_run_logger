@@ -1,0 +1,32 @@
+
+/*  Menu  */
+.home-menu {
+  padding-bottom: 30px;
+}
+
+.home-menu .pure-menu-list {
+  float: right;
+}
+
+.content{
+/* TODO */
+}
+
+.log-table {
+  margin: auto;
+}
+.name-col{
+  /* Empty for now */
+}
+.won-col{
+  /* Empty for now */
+}
+.items-col{
+  /* Force 10 items per row */
+  width: 640px;
+}
+.item-icon{
+  /* Standard is 32px */
+  width: 64px;
+  height: 64px;
+}
