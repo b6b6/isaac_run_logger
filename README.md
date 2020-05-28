@@ -1,24 +1,27 @@
-# Isaac Run Logger
+# ~~Isaac Run Logger~~
 
-This WIP mod provides a dashboard overview of your Binding of Isaac: Afterbirth runs. It displays all items the player has when a run is won / lost. Modded items are displayed as well.
+~~This WIP mod provides a dashboard overview of your Binding of Isaac: Afterbirth runs. It displays all items the player has when a run is won / lost. Modded items are displayed as well.~~
 
-To install, simply put this in your Binding of Isaac Mod directory. By default, this is "C:\\Users\\**{username}**\\Documents\\My games\\Binding of Isaac Afterbirth+ Mods".
+~~To install, simply put this in your Binding of Isaac Mod directory. By default, this is "C:\\Users\\**{username}**\\Documents\\My games\\Binding of Isaac Afterbirth+ Mods".~~
 
-To start the log, just run ```startDashboard.bat``` or run ```node main``` in a command prompt in the run_logger directory. Go to `http://localhost` and track your runs!
+~~To start the log, just run ```startDashboard.bat``` or run ```node main``` in a command prompt in the run_logger directory. Go to `http://localhost` and track your runs!~~
 
-## REQUIREMENTS
-- Windows (Mac / Linux versions are planned)
-- The Binding of Isaac: Afterbirth+
-- [node.js v14.2.0+](https://nodejs.org/en/)
+## ~~REQUIREMENTS~~
+- ~~Windows (Mac / Linux versions are planned)~~
+- ~~The Binding of Isaac: Afterbirth+~~
+- ~~[node.js v14.2.0+](https://nodejs.org/en/)~~
 
-## TODO
-Some planned features.
-- Mac / Linux
+## ~~TODO~~
+~~Some planned features.~~
+- ~~Mac / Linux~~
 
-- Remove node dependency
+- ~~Remove node dependency~~
 
-- More data hooks
+- ~~More data hooks~~
 
-- Transformations
+- ~~Transformations~~
 
-- Statistics drill down per floor
+- ~~Statistics drill down per floor~~
+
+# UPDATE
+This mod depends on io and os lua libraries. These (and other compiled libraries) will not execute unless The Binding of Isaac is ran with the luadebug flag. As a result, I will not be maintaining or developing this project further.
